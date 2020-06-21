@@ -155,7 +155,7 @@ namespace ShopPCView
                     Price = Convert.ToDecimal(textBoxPrice.Text),
                     ProductComponents = productComponents
                 });
-                MessageBox.Show("Сохранение прошло успешно", "Сообщение",
+                MessageBox.Show("Сохранение прошло уcпешно", "Сообщение",
                MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;
                 Close();

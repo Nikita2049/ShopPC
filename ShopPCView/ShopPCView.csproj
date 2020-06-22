@@ -148,6 +148,10 @@
       <Project>{b9092005-ffb2-4719-961f-9ad063bf5652}</Project>
       <Name>ShopPCBusinessLogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShopPCFileImplement\ShopPCFileImplement.csproj">
+      <Project>{a32e2015-cd21-4f22-b136-971d6e1452fb}</Project>
+      <Name>ShopPCFileImplement</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShopPCListImplement\ShopPCListImplement.csproj">
       <Project>{c0a576ca-a683-4642-87a2-6be23372a219}</Project>
       <Name>ShopPCListImplement</Name>

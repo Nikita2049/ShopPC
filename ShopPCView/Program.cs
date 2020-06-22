@@ -1,4 +1,5 @@
 ﻿using ShopPCBusinessLogic;
+using ShopPCBusinessLogic.BusinessLogics;
 using ShopPCBusinessLogic.Interfaces;
 using ShopPCDatabaseImplement.Implements;
 using System;
@@ -31,6 +32,8 @@ namespace ShopPCView
             currentContainer.RegisterType<IOrderLogic, OrderLogic>(new
            HierarchicalLifetimeManager());
             currentContainer.RegisterType<MainLogic>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<ReportLogic>(new
+           HierarchicalLifetimeManager());
             return currentContainer;
         }
     }

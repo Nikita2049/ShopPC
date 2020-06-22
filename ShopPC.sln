@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopPCListImplement", "Shop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopPCFileImplement", "ShopPCFileImplement\ShopPCFileImplement.csproj", "{A32E2015-CD21-4F22-B136-971D6E1452FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopPCDatabaseImplement", "ShopPCDatabaseImplement\ShopPCDatabaseImplement.csproj", "{F329B332-4218-4135-839B-443CE95F9E80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A32E2015-CD21-4F22-B136-971D6E1452FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A32E2015-CD21-4F22-B136-971D6E1452FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A32E2015-CD21-4F22-B136-971D6E1452FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F329B332-4218-4135-839B-443CE95F9E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F329B332-4218-4135-839B-443CE95F9E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F329B332-4218-4135-839B-443CE95F9E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F329B332-4218-4135-839B-443CE95F9E80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
